@@ -10,9 +10,9 @@ export default function Home() {
     const navigate = useNavigate();
   return (
     <div>
-          <p>This is the homepage</p>
+          {/* <p>This is the homepage</p>
            <p>Click on this to enter Create page</p>
-           <a href="/create">Create</a>
+           <a href="/create">Create</a> */}
 
 
         <div class="fos">
@@ -28,9 +28,9 @@ export default function Home() {
               <form action="">
                 <input type="text" id='em' placeholder='Email or Phone Number'/>  <br />
                 <input type="text" id='em' placeholder='Password'/> <br />
-                 <button id='lo'>Log in</button> <br />
+                 <button onClick={() => navigate('/create')} id='lo'>Log in</button> <br />
                  <button id='fo'>Forgot account?</button> <br />
-                 <button onClick={() => navigate('/signup')} id='cna'>Create New Account</button>
+                 <button onClick={() => navigate('/')} id='cna'>Create New Account</button>
               </form>
               </div>
 
@@ -39,7 +39,7 @@ export default function Home() {
 
 
 
-           <form class="row g-3">
+           {/* <form class="row g-3">
   <div class="col-md-2">
     <label for="validationDefault01" class="form-label">First name</label>
     <input type="text" class="form-control" id="validationDefault01" value="Mark" required/>
@@ -84,7 +84,7 @@ export default function Home() {
 
     
   </div>
-</form>
+</form> */}
 
 
 
