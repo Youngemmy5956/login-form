@@ -3,7 +3,7 @@ form{
     box-shadow:  0 2px 4px rgba(0,0,0,0.2);
 }
 body{
-    background-color: rgb(212,212,231);
+    background-color: #f0f2f5;
 }
 .fos{
     display: flex;
@@ -23,10 +23,23 @@ h1{
     padding-bottom: 1rem;
     padding-left: 1rem;
     padding-right: 1rem;
+    width: 23%;
+}
+#emt{
+    padding: 7px 7px;
+    width: 25.5rem;
+    background-color:white;
+    color: rgb(50, 50, 132) ;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid ;
+    margin-top: rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 }
 #lo{
-    width: 15rem;
-    background-color: rgb(50, 50, 132);
+    width: 25.5rem;
+    background-color:#1878f3;
     color: white;
     outline: none;
     border-radius: 10px;
@@ -58,30 +71,43 @@ h1{
     margin-top: rem;
     margin-bottom: 1rem;
 }
-#fo{
+#cnat{
     width: 15rem;
-    background-color:white;
-    color: rgb(50, 50, 132) ;
+    padding: 1rem 1rem;
+    background-color: rgb(0, 128, 0);
+    color: white;
     outline: none;
     border-radius: 10px;
     border: 1px solid white;
     margin-top: rem;
     margin-bottom: 1rem;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    margin-left: 22%;
+}
+#fo{
+    width: 25.5rem;
+    background-color:white;
+    color: #1878f3 ;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid white;
+    margin-top: rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
     padding: 5px 5px;
 }
 #em{
     padding: 7px 7px;
-    width: 15rem;
+    width: 12.5rem;
     background-color:white;
     color: rgb(50, 50, 132) ;
     outline: none;
     border-radius: 5px;
-    border: 1px solid red;
+    border: 1px solid #1878f3;
     margin-top: rem;
     margin-bottom: 2rem;
     box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 }
+
 #ems{
     
         padding: 1rem 1rem;
@@ -90,21 +116,35 @@ h1{
         color: rgb(50, 50, 132) ;
         outline: none;
         border-radius: 5px;
-        border: 1px solid red;
+        border: 1px solid #1878f3;
         margin-top: rem;
         margin-bottom: 1rem;
         box-shadow: 0 2px 4px rgba(0,0,0,0.2);
     
 }
+#emsk{
+    
+    padding: 1rem 1rem;
+    width: 25rem;
+    background-color:white;
+    color: rgb(50, 50, 132) ;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #1878f3;
+    margin-top: rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+
+}
 #res1{
         padding: 5px 5px;
-        width: 8rem;
+        width: 7rem;
         background-color:white;
         outline: none;
         color: rgb(50, 50, 132) ;
         outline: none;
         border-radius: 5px;
-        border: 1px solid red;
+        border: 1px solid #1878f3;
         margin-top: rem;
         margin-bottom: 1rem;
         box-shadow: 0 2px 4px rgba(0,0,0,0.2);
@@ -113,13 +153,13 @@ h1{
 }
 #res2{
     padding: 5px 5px;
-        width: 8rem;
+        width: 7rem;
         background-color:white;
         outline: none;
         color: rgb(50, 50, 132) ;
         outline: none;
         border-radius: 5px;
-        border: 1px solid red;
+        border: 1px solid #1878f3;
         margin-top: rem;
         margin-bottom: 1rem;
         box-shadow: 0 2px 4px rgba(0,0,0,0.2);
@@ -128,13 +168,13 @@ h1{
 }
 #res3{
     padding: 5px 5px;
-        width: 8rem;
+        width: 7rem;
         background-color:white;
         outline: none;
         color: rgb(50, 50, 132) ;
         outline: none;
         border-radius: 5px;
-        border: 1px solid red;
+        border: 1px solid #1878f3;
         margin-top: rem;
         margin-bottom: 1rem;
         box-shadow: 0 2px 4px rgba(0,0,0,0.2);
@@ -149,13 +189,11 @@ h1{
     background-color:white;
     outline: none;
     border-radius: 5px;
-    border: 1px solid white;
+    border: 1px solid #1878f3;
     margin-top: rem;
     margin-bottom: 1rem;
     box-shadow: 0 2px 4px rgba(0,0,0,0.2);
      cursor: pointer;
-
-    border: 1px solid black;
     
 }
 .west{
@@ -163,6 +201,9 @@ h1{
     display: flex;
     justify-content:space-around;
     
+}
+p{
+    padding-left:3%;
 }
 /* .wes{
     padding: 15px 30px;

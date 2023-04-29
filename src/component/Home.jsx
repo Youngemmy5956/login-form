@@ -26,11 +26,11 @@ export default function Home() {
 
               <div class="des">
               <form action="">
-                <input type="text" id='em' placeholder='Email or Phone Number'/>  <br />
-                <input type="text" id='em' placeholder='Password'/> <br />
+                <input type="text" id='emt' placeholder='Email or Phone Number'/>  <br />
+                <input type="text" id='emt' placeholder='Password'/> <br />
                  <button onClick={() => navigate('/create')} id='lo'>Log in</button> <br />
                  <button id='fo'>Forgot account?</button> <br />
-                 <button onClick={() => navigate('/')} id='cna'>Create New Account</button>
+                 <button onClick={() => navigate('/')} id='cnat'>Create New Account</button>
               </form>
               </div>
 

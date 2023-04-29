@@ -41,8 +41,8 @@ export default function Signup() {
                     <hr />
                   <form action="">
                     <input type="text" id='em' placeholder='First Name'/> <input type="text" id='em' placeholder='Last Name'/>  <br />
-                    <input type="text" id='ems' placeholder='Email or Mobile number'/> <br />
-                    <input type="text" id='ems' placeholder='New Password'/> <br />
+                    <input type="text" id='emsk' placeholder='Email or Mobile number'/> <br />
+                    <input type="text" id='emsk' placeholder='New Password'/> <br />
 
                     
 
@@ -64,7 +64,7 @@ export default function Signup() {
 
                     <select name="" id="res2">
                         <option value="">Jan</option>
-                        <option value="">Fe </option>
+                        <option value="">Feb</option>
                         <option value="" selected>Mar</option>
                         <option value="">Apr</option>
                         <option value="">May</option>
