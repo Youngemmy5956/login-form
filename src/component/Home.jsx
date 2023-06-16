@@ -1,18 +1,49 @@
 import React from 'react'
+import { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import Carousel from 'react-bootstrap/Carousel';
-import { useNavigate } from 'react-router-dom';
+// import { useNavigate } from 'react-router-dom';
 
 
 import './home.css'
 
 export default function Home() {
-    const navigate = useNavigate();
+
+  const [isLogin, setIsLogin] = useState(false);
+  const [input, setInput] = useState({
+    email: "",
+    password: "",
+  });
+
+  const onChange = (e) => {
+    setInput({ ...input, [e.target.id]: e.target.value });
+  };
+
+  const onSubmit = () => {
+    alert("Login successful");
+    setIsLogin(true);
+  };
+
+
+   
+
+
+
+    // const navigate = useNavigate();
   return (
+
+    
+
+     
+
+  
+    
     <div>
           {/* <p>This is the homepage</p>
            <p>Click on this to enter Create page</p>
            <a href="/create">Create</a> */}
+ 
+
 
 
         <div class="fos">
@@ -25,16 +56,22 @@ export default function Home() {
 
 
               <div class="des">
-              <form action="">
-                <input type="text" id='emt' placeholder='Email or Phone Number'/>  <br />
-                <input type="text" id='emt' placeholder='Password'/> <br />
-                 <button onClick={() => navigate('/create')} id='lo'>Log in</button> <br />
+              <form action=""  onSubmit={onSubmit}>
+                <input type="text" id='emt' placeholder='Email or Phone Number' onChange={onChange}/>  <br />
+                <input type="text" id='emt' placeholder='Password' onChange={onChange}/> <br />
+                 <button  id='lo' >Log in</button> <br />
                  <button id='fo'>Forgot account?</button> <br />
-                 <button onClick={() => navigate('/')} id='cnat'>Create New Account</button>
+                 <button  id='cnat'>Create New Account</button>
+
+
+                 {/* onClick={() => navigate('/create')} */}
+                 {/* onClick={() => navigate('/')} */}
               </form>
               </div>
 
         </div>
+
+        
           
 
 
